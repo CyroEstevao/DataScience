@@ -26,10 +26,12 @@ Evaluation: Measure accuracy and other relevant metrics.
 Decision Tree:
 
 Model Training: Build the decision tree using selected features.
+
 Pruning: Optimize the tree to prevent overfitting.
+
 Evaluation: Use precision, recall, F1-score, and confusion matrix to evaluate.
-Outcome:
-Developed models to predict life expectancy with high accuracy and interpretability, aiding in public health planning and policy-making.
+
+Outcome: Developed models to predict life expectancy with high accuracy and interpretability, aiding in public health planning and policy-making.
 
 # DATABASE SYSTEM
 
@@ -47,6 +49,7 @@ Steps Involved:
 Database Design:
 
 Schema Creation: Defined tables for donors, blood donations, recipients, and blood inventory. Established relationships and constraints to model the data accurately.
+
 Normalization: Ensured the database schema was normalized to reduce redundancy and improve data integrity.
 Data Cleaning and Transformation:
 
@@ -59,15 +62,20 @@ Data Transformation: Applied SQL functions to format, convert, and manipulate da
 Aggregations and Joins:
 
 Aggregations: Used SQL aggregate functions (e.g., SUM, AVG, COUNT) and GROUP BY clauses to summarize and analyze data.
+
 Joins: Combined data from multiple tables using various types of joins (INNER JOIN, LEFT JOIN, etc.) to create comprehensive reports and gain insights.
+
 Indexing and Query Optimization:
 
 Indexing: Created indexes on frequently queried columns to improve the performance of data retrieval operations.
+
 Optimization: Analyzed query execution plans and optimized slow-running queries by refining indexing strategies and query structures.
 Stored Procedures and Triggers:
 
 Stored Procedures: Developed reusable SQL scripts encapsulating complex queries and operations to standardize and streamline processes.
+
 Triggers: Implemented triggers to automate actions in response to specific database events, such as updating inventory levels after a new blood donation entry.
+
 Outcome:
 The project successfully demonstrated the efficient management and analysis of blood bank data using SQL. By employing various SQL techniques, the system provided robust solutions for handling donor information, tracking blood donations, managing recipient data, and maintaining inventory levels. This resulted in improved data integrity, streamlined operations, and enhanced decision-making capabilities for the blood bank.
 
